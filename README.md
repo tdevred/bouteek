@@ -1,4 +1,4 @@
-# Bouteeq : Gestion d'inventaire au sein d'entrepôts
+# Bouteek : Gestion d'inventaire au sein d'entrepôts
 
 Ce projet est une application fullstack permettant la gestion d'inventaires au sein d'entrepôts.
 
