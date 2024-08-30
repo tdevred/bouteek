@@ -9,7 +9,7 @@ La base de données pour ce projet est PostgreSQL mais ce projet utilisant Sprin
 
 # Frontend
 
-La partie frontend a été développée avec le framework React et le langage Typescript. La partie design utilise bootstrap. Celle-ci gère l'affichage des produits, la connexion d'un utilisateur et la création d'une commande contenant plusieurs produits.
+La partie frontend a été développée avec le framework React et le langage Typescript. La partie design utilise Bootstrap. Cette partie de l'application gère l'affichage des produits, la connexion d'un utilisateur et la création d'une commande contenant plusieurs produits.
 
 # Déploiement
 
