@@ -1,0 +1,83 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.layout {
+    border-right: 5px solid darkgray;
+    background-color: lightgray;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.layout .navlink,
+.navlink {
+    text-decoration: none;
+    padding: 10px;
+
+    color: black;
+    font-weight: bold;
+}
+
+.layout .navlink:hover,
+.navlink:hover,
+.navlink.active {
+    color: white;
+    background-color: navy;
+}
+
+.navlink {
+    width: 100%;
+}
+
+.content {
+    background-color: beige;
+    padding: 25px;
+    padding-right: 0;
+}
+
+.site-logo a {
+    color: navy;
+    font-size: 5vw;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.connection-status {
+    padding: 10px
+}
+
+.cart-display {
+    padding: 10px
+}
+
+.page-title {
+    font-size: 4vw;
+    font-weight: bold;
+    border-bottom: 10px solid black;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+.page-subtitle {
+    font-size: 3vw;
+    margin-bottom: 20px;
+    border-bottom: 5px solid black;
+}
+
+.pagination-disabled {
+    color: grey;
+    background-color: lightgray;
+}
+
+.pagination-disabled:hover {
+    color: grey;
+    background-color: lightgray;
+}
+
+.content div:not(.card) {
+    padding-left: 10px;
+    padding-right: 30px;
+}

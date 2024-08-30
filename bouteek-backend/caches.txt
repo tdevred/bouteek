@@ -1,0 +1,54 @@
+all_products
+modifié quand:
+  - un produit est ajouté
+  - un produit est modifié
+  - un produit est supprimé
+
+all_categories
+modifié quand:
+  - une catégorie est ajoutée
+  - une catégorie est modifiée
+
+product_single #productId
+modifié quand:
+  - un produit est ajouté (productId)
+  - un produit est modifié (productId)
+  - un produit est supprimé (productId)
+
+category_single #categoryId
+modifié quand:
+  - une catégorie est ajoutée (categoryId)
+  - modifiée
+  - supprimée
+
+all_warehouses
+jamais modifié pour l'instant
+
+warehouse_stocks #warehouseId
+modifié quand:
+  - produit supprimé
+  - stock ajouté
+  - stock modifié
+  - stock supprimé
+
+product_stocks #productId
+modifié quand:
+  - produit ajouté
+  - produit supprimé
+  - stock ajouté
+  - stock modifié
+  - stock supprimé
+
+warehouse_produit_stocks #warehouseId, productId
+modifié quand:
+  - produit supprimé
+  - stock ajouté
+  - stock modifié
+  - stock supprimé
+
+all_stocks
+modifié quand:
+  - produit supprimé
+  - stock ajouté
+  - stock modifié
+  - stock supprimé
